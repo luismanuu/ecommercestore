@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.app-form > div{ 
+margin-top: 1em;
+}
+
+.padding{
+    padding: 1em;
+}
+
+.actions{
+    margin-top: 1em;
+}
+
+.text-center .pagination{
+    justify-content: center;
+}
