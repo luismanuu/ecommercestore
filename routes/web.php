@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('productos', 'ProductsController');
+Route::get('/productos&ajax=1', "ProductsController@index");
